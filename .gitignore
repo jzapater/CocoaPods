@@ -1,4 +1,39 @@
+<<<<<<< HEAD
 .*.sw?
 .DS_Store
 .rbenv-version
 .idea
+=======
+# General
+*.swp
+*.swo
+*.rbo
+*.gem
+.DS_Store
+.rbenv-version
+.rbx/
+xcuserdata
+project.xcworkspace
+DerivedData
+/concatenated.*
+Gemfile.lock
+
+# Yardoc
+.yardoc
+/doc
+
+# Specs
+tmp
+spec/fixtures/banana-lib
+spec/fixtures/chameleon
+spec/fixtures/integration/Headers/
+spec/fixtures/vcr
+
+# Examples
+examples/**/Podfile.lock
+examples/Pods
+examples/**/Pods
+examples/RelativePathProject/RelativePathProject/RelativePathProject.xcodeproj
+coverage/
+.coveralls.yml
+>>>>>>> 61ddc073e4b60493b862d2f54c179afc172b9fd2
